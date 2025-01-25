@@ -312,7 +312,7 @@ scale = Vector2(0.0850674, 0.0685066)
 sprite_frames = SubResource("SpriteFrames_wa7o6")
 animation = &"start"
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="player1" type="AnimatedSprite2D" parent="."]
 position = Vector2(43, -6)
 scale = Vector2(0.200556, 0.194569)
 sprite_frames = SubResource("SpriteFrames_1g22w")

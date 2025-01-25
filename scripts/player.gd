@@ -12,6 +12,7 @@ var is_boosting = false
 var boostSprite: AnimatedSprite2D
 var boostSprite2: AnimatedSprite2D
 var sound_player: AudioStreamPlayer2D
+var player1: AnimatedSprite2D
 
 func _ready() -> void:
 	boostSprite = get_node("/root/game/PLAYER/player/Booster")
@@ -21,6 +22,7 @@ func _ready() -> void:
 	boostSprite2.animation_finished.connect(self._on_animation_finished)
 	boostSprite.visible = false
 	boostSprite2.visible = false
+	player1 = get_node("/root/game/PLAYER/player/player1")
 
 func _physics_process(delta: float) -> void:
 	# Add gravity
@@ -33,7 +35,10 @@ func _physics_process(delta: float) -> void:
 
 	# Get the input direction
 	var input_direction := Input.get_axis("ui_left", "ui_right")
-
+	if input_direction > 0:
+		player1.flip_h = false
+	elif input_direction < 0:
+		player1.flip_h = true
 	# Apply acceleration for horizontal movement
 	if input_direction != 0:
 		velocity.x = move_toward(velocity.x, input_direction * SPEED, ACCELERATION * delta)
