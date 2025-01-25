@@ -30,6 +30,7 @@ text = "Boost :"
 metadata/_edit_group_ = true
 
 [node name="Jump Button" type="TouchScreenButton" parent="."]
+modulate = Color(0.129412, 0.364706, 0.32549, 0.466667)
 position = Vector2(972, 588)
 rotation = -1.57593
 scale = Vector2(0.0262355, 0.0281039)

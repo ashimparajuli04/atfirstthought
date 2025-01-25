@@ -12,19 +12,26 @@ normal = Vector2(1, 0)
 
 [node name="game" type="Node2D"]
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(576, -325)
-
-[node name="PLAYER" type="Node" parent="."]
-
-[node name="player" parent="PLAYER" instance=ExtResource("1_h0jdt")]
-position = Vector2(384, -173)
-
-[node name="CONTROLS" type="Node" parent="."]
-
-[node name="Controls" parent="CONTROLS" instance=ExtResource("2_olu5d")]
-
 [node name="WORLD" type="Node" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="WORLD"]
+z_index = -2
+offset_left = -495.0
+offset_top = -826.0
+offset_right = 1694.0
+offset_bottom = 225.0
+color = Color(0.0705882, 0.160784, 0.156863, 1)
+
+[node name="Map1" type="Node" parent="WORLD"]
+
+[node name="platform" type="StaticBody2D" parent="WORLD/Map1"]
+modulate = Color(0.601732, 1, 0.340204, 1)
+
+[node name="platform2" type="StaticBody2D" parent="WORLD/Map1"]
+modulate = Color(0.601732, 1, 0.340204, 1)
+
+[node name="platform3" type="StaticBody2D" parent="WORLD/Map1"]
+modulate = Color(0.601732, 1, 0.340204, 1)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="WORLD"]
 
@@ -35,6 +42,18 @@ shape = SubResource("WorldBoundaryShape2D_bhmgx")
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="WORLD/StaticBody2D"]
 position = Vector2(5, 454)
 shape = SubResource("WorldBoundaryShape2D_hmqxj")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(577, -324)
+
+[node name="PLAYER" type="Node" parent="."]
+
+[node name="player" parent="PLAYER" instance=ExtResource("1_h0jdt")]
+position = Vector2(384, -173)
+
+[node name="CONTROLS" type="Node" parent="."]
+
+[node name="Controls" parent="CONTROLS" instance=ExtResource("2_olu5d")]
 
 [node name="HUD" type="Node" parent="."]
 
