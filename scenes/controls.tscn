@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1tnqwl7agf63"]
+
+[ext_resource type="PackedScene" uid="uid://clnrhrasxrueq" path="res://assetlib/joystick/scenes/joystick.tscn" id="1_bbcp6"]
+[ext_resource type="Texture2D" uid="uid://jgpnu2i5jthw" path="res://assets/controls assets/icons/pngwing.com.png" id="2_uwsgu"]
+
+[node name="Controls" type="CanvasLayer"]
+
+[node name="Joystick" parent="." instance=ExtResource("1_bbcp6")]
+position = Vector2(219, 443)
+metadata/_edit_group_ = true
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(972, 586)
+rotation = -1.57593
+scale = Vector2(0.0262355, 0.0281039)
+texture_normal = ExtResource("2_uwsgu")
+shape_centered = false
+action = "ui_accept"
+metadata/_edit_group_ = true

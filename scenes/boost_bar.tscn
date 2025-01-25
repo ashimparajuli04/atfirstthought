@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctgaw7g3ma5y5"]
+
+[ext_resource type="Script" path="res://scenes/boost.gd" id="1_ysy1d"]
+
+[node name="BoostBar" type="CanvasLayer"]
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 35.0
+offset_top = 80.0
+offset_right = 204.0
+offset_bottom = 104.0
+metadata/_edit_group_ = true
+
+[node name="boost2" type="ColorRect" parent="."]
+offset_left = 35.0
+offset_top = 80.0
+offset_right = 204.0
+offset_bottom = 104.0
+color = Color(0.354163, 0.547666, 0.816678, 1)
+script = ExtResource("1_ysy1d")
+metadata/_edit_group_ = true
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 34.0
+offset_top = 54.0
+offset_right = 94.0
+offset_bottom = 77.0
+text = "Boost :"
+metadata/_edit_group_ = true
