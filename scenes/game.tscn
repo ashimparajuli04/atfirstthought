@@ -1,55 +1,39 @@
-[gd_scene load_steps=6 format=3 uid="uid://bcx2ilh3ylsdw"]
+[gd_scene load_steps=7 format=3 uid="uid://bcx2ilh3ylsdw"]
 
 [ext_resource type="PackedScene" uid="uid://b2umb34g302uo" path="res://scenes/player.tscn" id="1_h0jdt"]
+[ext_resource type="PackedScene" uid="uid://bjlilfjbhu0dp" path="res://scenes/green_grass_map.tscn" id="1_r3s8v"]
 [ext_resource type="PackedScene" uid="uid://d1tnqwl7agf63" path="res://scenes/controls.tscn" id="2_olu5d"]
 [ext_resource type="PackedScene" uid="uid://ctgaw7g3ma5y5" path="res://scenes/boost_bar.tscn" id="3_v7xkm"]
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_bhmgx"]
-distance = -236.0
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ydhi1"]
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hmqxj"]
-normal = Vector2(1, 0)
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ni4ip"]
 
 [node name="game" type="Node2D"]
 
 [node name="WORLD" type="Node" parent="."]
 
-[node name="ColorRect" type="ColorRect" parent="WORLD"]
-z_index = -2
-offset_left = -495.0
-offset_top = -826.0
-offset_right = 1694.0
-offset_bottom = 225.0
-color = Color(0.0705882, 0.160784, 0.156863, 1)
-
-[node name="Map1" type="Node" parent="WORLD"]
-
-[node name="platform" type="StaticBody2D" parent="WORLD/Map1"]
-modulate = Color(0.601732, 1, 0.340204, 1)
-
-[node name="platform2" type="StaticBody2D" parent="WORLD/Map1"]
-modulate = Color(0.601732, 1, 0.340204, 1)
-
-[node name="platform3" type="StaticBody2D" parent="WORLD/Map1"]
-modulate = Color(0.601732, 1, 0.340204, 1)
+[node name="green grass map" parent="WORLD" instance=ExtResource("1_r3s8v")]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="WORLD"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WORLD/StaticBody2D"]
-position = Vector2(-1, -236)
-shape = SubResource("WorldBoundaryShape2D_bhmgx")
+position = Vector2(0, 573)
+shape = SubResource("WorldBoundaryShape2D_ydhi1")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="WORLD/StaticBody2D"]
-position = Vector2(5, 454)
-shape = SubResource("WorldBoundaryShape2D_hmqxj")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(577, -324)
+rotation = 1.5708
+shape = SubResource("WorldBoundaryShape2D_ni4ip")
 
 [node name="PLAYER" type="Node" parent="."]
 
 [node name="player" parent="PLAYER" instance=ExtResource("1_h0jdt")]
 position = Vector2(384, -173)
+scale = Vector2(0.762528, 0.762528)
+
+[node name="Camera2D" type="Camera2D" parent="PLAYER/player"]
+position = Vector2(193, -151)
+position_smoothing_enabled = true
 
 [node name="CONTROLS" type="Node" parent="."]
 

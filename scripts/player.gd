@@ -102,7 +102,7 @@ func _physics_process(delta: float) -> void:
 		player.rotation = 0  # Reset rotation
 
 	# Boost regeneration
-	if not Input.is_action_pressed("ui_up") and boost < MAX_BOOST and is_on_floor():
+	if is_boosting == false:
 		boost += BOOST_REGEN_RATE * delta
 		boost = min(boost, MAX_BOOST)
 
