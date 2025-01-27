@@ -30,7 +30,7 @@ shape = SubResource("WorldBoundaryShape2D_ni4ip")
 
 [node name="player" parent="PLAYER" instance=ExtResource("1_h0jdt")]
 position = Vector2(384, -173)
-scale = Vector2(0.762528, 0.762528)
+scale = Vector2(0.979888, 1.03234)
 
 [node name="Camera2D" type="Camera2D" parent="PLAYER/player"]
 position = Vector2(193, -151)

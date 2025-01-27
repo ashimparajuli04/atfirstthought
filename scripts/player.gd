@@ -5,6 +5,7 @@ const SPEED = 500.0
 const JUMP_VELOCITY = -400.0
 const ACCELERATION = 2500.0  # How quickly the player accelerates
 const DECELERATION = 1500.0  # How quickly the player stops
+var skewed = false
 
 # Boost Constants
 const MAX_BOOST = 100.0  # Maximum boost value
@@ -19,16 +20,16 @@ var is_boosting = false
 var boostSprite: AnimatedSprite2D
 var boostSprite2: AnimatedSprite2D
 var sound_player: AudioStreamPlayer2D
-var player1: AnimatedSprite2D
+var player1: Node
 var player: CharacterBody2D
 
 func _ready() -> void:
 	# Initialize node references
-	boostSprite = get_node("/root/game/PLAYER/player/Booster")
-	boostSprite2 = get_node("/root/game/PLAYER/player/Booster2")
-	sound_player = get_node("/root/game/PLAYER/player/Flame-thrower-128555")
-	player = get_node("/root/game/PLAYER/player")
-	player1 = get_node("/root/game/PLAYER/player/player1")
+	boostSprite = $Booster
+	boostSprite2 = $Booster2
+	sound_player = $"Flame-thrower-128555"
+	player = $"."
+	player1 = $player1
 	
 	# Connect animation finished signals
 	boostSprite.animation_finished.connect(self._on_animation_finished)
@@ -50,11 +51,12 @@ func _physics_process(delta: float) -> void:
 	# Get input direction
 	var input_direction := Input.get_axis("ui_left", "ui_right")
 	
-	# Flip sprite based on movement direction
-	if input_direction > 0:
-		player1.flip_h = false
-	elif input_direction < 0:
-		player1.flip_h = true
+	 #Flip sprite based on movement direction
+
+	if input_direction > 0 and player1.scale.x < 0:
+		player1.scale.x = abs(player1.scale.x)
+	elif input_direction < 0 and player1.scale.x > 0:
+		player1.scale.x *= -1
 
 	# Horizontal movement
 	if input_direction != 0:
