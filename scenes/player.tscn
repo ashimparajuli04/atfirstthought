@@ -320,7 +320,7 @@ animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(43, 10)
+position = Vector2(43, 7)
 shape = SubResource("RectangleShape2D_ct43g")
 
 [node name="Flame-thrower-128555" type="AudioStreamPlayer2D" parent="."]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jgpnu2i5jthw"
-path="res://.godot/imported/pngwing.com.png-03764e54f3fefc19c4f8d30ec1b90152.ctex"
+uid="uid://dkgpo3nnwrvf"
+path="res://.godot/imported/Tileset.png-e586987eddda790086814633a1943cea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/controls assets/icons/pngwing.com.png"
-dest_files=["res://.godot/imported/pngwing.com.png-03764e54f3fefc19c4f8d30ec1b90152.ctex"]
+source_file="res://assets/map asset/Tileset.png"
+dest_files=["res://.godot/imported/Tileset.png-e586987eddda790086814633a1943cea.ctex"]
 
 [params]
 
