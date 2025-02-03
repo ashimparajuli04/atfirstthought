@@ -1,41 +1,23 @@
-[gd_scene load_steps=64 format=3 uid="uid://b2umb34g302uo"]
+[gd_scene load_steps=46 format=3 uid="uid://b2umb34g302uo"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_w8qnv"]
-[ext_resource type="Texture2D" uid="uid://cnh2qnvbwc822" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_000.png" id="2_exdc1"]
 [ext_resource type="Texture2D" uid="uid://3isy6mcbrri4" path="res://assets/Player assets/custom assets/flame10/PNG/31.png" id="2_iuw7l"]
-[ext_resource type="Texture2D" uid="uid://bbori3ywgeblc" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_001.png" id="3_3u15c"]
 [ext_resource type="Texture2D" uid="uid://bw3ypknuc3n31" path="res://assets/Player assets/custom assets/flame10/PNG/32.png" id="3_ekyft"]
 [ext_resource type="Texture2D" uid="uid://bh5i01gwb7st5" path="res://assets/Player assets/custom assets/flame10/PNG/33.png" id="4_xbamv"]
-[ext_resource type="Texture2D" uid="uid://ofcljkyxcqyt" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_002.png" id="4_yhaeo"]
-[ext_resource type="Texture2D" uid="uid://myexa81lxvui" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_003.png" id="5_f6syq"]
 [ext_resource type="Texture2D" uid="uid://do4cqxh3kjdr5" path="res://assets/Player assets/custom assets/flame10/PNG/34.png" id="5_jumoj"]
 [ext_resource type="Texture2D" uid="uid://do1i401eci6gg" path="res://assets/Player assets/custom assets/flame10/PNG/35.png" id="6_rqwng"]
-[ext_resource type="Texture2D" uid="uid://1xlsvy526smn" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_004.png" id="6_uxmef"]
 [ext_resource type="Texture2D" uid="uid://joni3v7wkkqk" path="res://assets/Player assets/custom assets/flame10/PNG/36.png" id="7_3n07g"]
-[ext_resource type="Texture2D" uid="uid://c1gqlnfshcwf8" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_005.png" id="7_hl36e"]
 [ext_resource type="Texture2D" uid="uid://dka3atmrgggfd" path="res://assets/Player assets/custom assets/flame10/PNG/37.png" id="8_5ovro"]
-[ext_resource type="Texture2D" uid="uid://cj157uhgdvtpm" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_006.png" id="8_ac7up"]
 [ext_resource type="Texture2D" uid="uid://85o13645lknl" path="res://assets/Player assets/custom assets/flame10/PNG/38.png" id="9_ded25"]
-[ext_resource type="Texture2D" uid="uid://ohutjqxlw77h" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_007.png" id="9_uxmjg"]
-[ext_resource type="Texture2D" uid="uid://bmj8rjulqcsn0" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_008.png" id="10_6mf03"]
 [ext_resource type="Texture2D" uid="uid://bnbasuc21rlgv" path="res://assets/Player assets/custom assets/flame10/PNG/39.png" id="10_fffkt"]
 [ext_resource type="Texture2D" uid="uid://dswhrex35pd4h" path="res://assets/Player assets/custom assets/flame10/PNG/40.png" id="11_7b751"]
-[ext_resource type="Texture2D" uid="uid://c8vywnt105mnl" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_009.png" id="11_ofdhh"]
-[ext_resource type="Texture2D" uid="uid://bvtam0vfj01fw" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_010.png" id="12_j52h5"]
 [ext_resource type="Texture2D" uid="uid://cxulq2j646q2d" path="res://assets/Player assets/custom assets/flame10/PNG/07.png" id="12_wdwep"]
 [ext_resource type="Texture2D" uid="uid://bu3xed8qkphds" path="res://assets/Player assets/custom assets/flame10/PNG/08.png" id="13_helx3"]
-[ext_resource type="Texture2D" uid="uid://cmr00lvmp5rtl" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_011.png" id="13_tpejd"]
 [ext_resource type="Texture2D" uid="uid://sirok1u446pn" path="res://assets/Player assets/custom assets/flame10/PNG/21.png" id="14_jp0bn"]
-[ext_resource type="Texture2D" uid="uid://cshd1nxnupapt" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_012.png" id="14_orspr"]
 [ext_resource type="Texture2D" uid="uid://dr3pxtm4nrfsl" path="res://assets/Player assets/custom assets/flame10/PNG/22.png" id="15_5xykh"]
-[ext_resource type="Texture2D" uid="uid://thnlyyfwxtj" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_013.png" id="15_p4n6h"]
 [ext_resource type="Texture2D" uid="uid://c6ygi1iuoe4nj" path="res://assets/Player assets/custom assets/flame10/PNG/23.png" id="16_5iuyi"]
-[ext_resource type="Texture2D" uid="uid://dlm3povmble7" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_014.png" id="16_d0jqh"]
-[ext_resource type="Texture2D" uid="uid://b1jvricppdi7j" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_015.png" id="17_ihp4e"]
 [ext_resource type="Texture2D" uid="uid://d23dyjpkbeosk" path="res://assets/Player assets/custom assets/flame10/PNG/24.png" id="17_nrnjo"]
-[ext_resource type="Texture2D" uid="uid://br0177gyvaak3" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_016.png" id="18_78mbd"]
 [ext_resource type="Texture2D" uid="uid://chby5wj08ryiv" path="res://assets/Player assets/custom assets/flame10/PNG/25.png" id="18_abkoa"]
-[ext_resource type="Texture2D" uid="uid://dmfbfxgo02iw4" path="res://assets/Player assets/sprites/chibi-skeleton/Skeleton_Warrior_1/PNG/PNG Sequences/Idle/0_Skeleton_Warrior_Idle_017.png" id="19_dlp4m"]
 [ext_resource type="Texture2D" uid="uid://ckdk1r78nw43a" path="res://assets/Player assets/custom assets/flame10/PNG/26.png" id="19_f23fh"]
 [ext_resource type="Texture2D" uid="uid://wxr0a4lro5fo" path="res://assets/Player assets/custom assets/flame10/PNG/27.png" id="20_h75e7"]
 [ext_resource type="AudioStream" uid="uid://bqivtlnt531ma" path="res://assets/Player assets/custom assets/flame-thrower-128555.mp3" id="21_1dkxg"]
@@ -60,6 +42,7 @@
 [ext_resource type="Texture2D" uid="uid://d1xqwlmvpinto" path="res://assets/Player assets/custom assets/flame10/PNG/03.png" id="39_b0ph3"]
 [ext_resource type="Texture2D" uid="uid://blmolnic2mwqs" path="res://assets/Player assets/custom assets/flame10/PNG/04.png" id="40_5pn5j"]
 [ext_resource type="Texture2D" uid="uid://dwo4skrbhsctw" path="res://assets/Player assets/custom assets/flame10/PNG/05.png" id="41_bh6dv"]
+[ext_resource type="PackedScene" uid="uid://b2j2xhrr6oaig" path="res://scenes/skelly.tscn" id="43_dwnj0"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_wa7o6"]
 animations = [{
@@ -229,100 +212,35 @@ animations = [{
 "speed": 20.0
 }]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_1g22w"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("2_exdc1")
-}, {
-"duration": 1.0,
-"texture": ExtResource("3_3u15c")
-}, {
-"duration": 1.0,
-"texture": ExtResource("4_yhaeo")
-}, {
-"duration": 1.0,
-"texture": ExtResource("5_f6syq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_uxmef")
-}, {
-"duration": 1.0,
-"texture": ExtResource("7_hl36e")
-}, {
-"duration": 1.0,
-"texture": ExtResource("8_ac7up")
-}, {
-"duration": 1.0,
-"texture": ExtResource("9_uxmjg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_6mf03")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_ofdhh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_j52h5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_tpejd")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_orspr")
-}, {
-"duration": 1.0,
-"texture": ExtResource("15_p4n6h")
-}, {
-"duration": 1.0,
-"texture": ExtResource("16_d0jqh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("17_ihp4e")
-}, {
-"duration": 1.0,
-"texture": ExtResource("18_78mbd")
-}, {
-"duration": 1.0,
-"texture": ExtResource("19_dlp4m")
-}],
-"loop": true,
-"name": &"idle",
-"speed": 20.0
-}]
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ct43g"]
 size = Vector2(28, 84)
 
 [node name="player" type="CharacterBody2D"]
-position = Vector2(381, -203)
+position = Vector2(374, -182)
 script = ExtResource("1_w8qnv")
 
 [node name="Booster" type="AnimatedSprite2D" parent="."]
-position = Vector2(33.4772, 75.0013)
+position = Vector2(-11.3124, 76.8801)
 rotation = -1.57028
 scale = Vector2(0.0850674, 0.0685066)
 sprite_frames = SubResource("SpriteFrames_wa7o6")
 animation = &"start"
 
 [node name="Booster2" type="AnimatedSprite2D" parent="."]
-position = Vector2(47.4771, 75.0015)
+position = Vector2(2.68752, 76.8803)
 rotation = -1.57028
 scale = Vector2(0.0850674, 0.0685066)
 sprite_frames = SubResource("SpriteFrames_wa7o6")
 animation = &"start"
 
-[node name="player1" type="AnimatedSprite2D" parent="."]
-position = Vector2(43, -6)
-scale = Vector2(0.200556, 0.194569)
-sprite_frames = SubResource("SpriteFrames_1g22w")
-animation = &"idle"
-autoplay = "idle"
+[node name="Flame-thrower-128555" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(65, 97)
+stream = ExtResource("21_1dkxg")
+
+[node name="player1" parent="." instance=ExtResource("43_dwnj0")]
+position = Vector2(-2, 9)
+scale = Vector2(0.189, 0.189)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(43, 7)
+position = Vector2(-3, 3)
 shape = SubResource("RectangleShape2D_ct43g")
-
-[node name="Flame-thrower-128555" type="AudioStreamPlayer2D" parent="."]
-position = Vector2(39, 51)
-stream = ExtResource("21_1dkxg")

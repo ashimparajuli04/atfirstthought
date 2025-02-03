@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://ctgaw7g3ma5y5"]
 
 [ext_resource type="Script" path="res://scenes/boost.gd" id="1_ysy1d"]
-[ext_resource type="Texture2D" uid="uid://jgpnu2i5jthw" path="res://assets/map asset/controls assets/icons/pngwing.com.png" id="2_83wsa"]
+[ext_resource type="Texture2D" uid="uid://jgpnu2i5jthw" path="res://assets/controls assets/icons/pngwing.com.png" id="2_83wsa"]
 
 [node name="BoostBar" type="CanvasLayer"]
 
